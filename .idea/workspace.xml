@@ -4,7 +4,6 @@
     <list default="true" id="dc3d550d-a0e4-4ba5-9efc-c3094e64da60" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +175,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605294021662</updated>
-      <workItem from="1605294022828" duration="9715000" />
+      <workItem from="1605294022828" duration="10003000" />
     </task>
     <task id="LOCAL-00001" summary="Rename name for the pivot table and relation">
       <created>1605303308389</created>
