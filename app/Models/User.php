@@ -26,7 +26,7 @@ class User extends Authenticatable
     /**
      * Get department that owns the user.
      */
-    public function department(): BelongsToMany
+    public function departments(): BelongsToMany
     {
         return $this->belongsToMany(Department::class);
     }
