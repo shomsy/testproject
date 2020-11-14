@@ -15,8 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::middleware('auth:api')->get('/user', function (Request $request) {
-//    return $request->user();
-//});
-
-Route::get('getusers',[UserController::class, 'getusers']);
+Route::prefix('users')->group(function () {
+    Route::get('getAll', [UserController::class, 'getusers']);
+    Route::get('edit/{id}', [UserController::class, 'edit']);
+    Route::post('update/{id}', [UserController::class, 'update']);
+});
